@@ -1,0 +1,45 @@
+
+.App {
+  text-align: center;
+  margin: 25%;
+  background: white
+  
+}
+
+.card{
+  border: solid 1px black;
+  height: auto;
+  width: 50% ;
+  background-color: white;
+  padding: 1rem;
+  margin-block-start: 15%;
+  margin-left: 20%;
+}
+
+.classAuthor{
+  text-align: end;
+  padding-right: 2rem;
+}
+
+.icon{
+  font-size: 30px;
+  color: black
+}
+
+h1{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white
+}
+
+.buttonNext{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem;
+}

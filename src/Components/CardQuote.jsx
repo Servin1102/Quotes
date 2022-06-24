@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react'
 import QuotesBox from "../QuotesBox.json"
-
 import { FaQuoteLeft } from 'react-icons/fa';
 import { IoChevronForwardSharp } from "react-icons/io5";
 import Colors from './Colors';
@@ -16,7 +15,7 @@ const CardQuote = () => {
   };
 
   const color = Colors[Math.floor(Math.random() * Colors.length)];
-  document.body.style; `background: ${color}`;
+  
 
   return (
     <header className="App-header" style={{ background: color }}>

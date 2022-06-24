@@ -1,29 +1,19 @@
 import { useState } from 'react'
-import QuoteBox from "./QuoteBox.json"
-
-
+import QuotesBox from "./QuotesBox.json"
 import './App.css'
-import Quote from './Components/Quote'
-
+import CardQuote from './Components/CardQuote'
+import Colors from './Components/Colors'
 
 function App() {
 
-  const [nextQuote, setnextQuote] = useState(0)
+  
 
-  const index = () =>{
-    setnextQuote(nextQuote+1 )
-    
-  }
-
-  return (
-    <>
-      <Quote
-        Quote={QuoteBox[nextQuote].quote}
-        author={QuoteBox[nextQuote].author}
-        clic={index}
-      />
-    </>
-  );
+  
+    return (
+    <div className="App">
+      <CardQuote />
+    </div>
+  )
 }
 
 export default App

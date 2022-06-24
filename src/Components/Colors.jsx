@@ -1,18 +1,18 @@
 import React from 'react';
 
 const Colors = [
-    "#ffa43a",
-    "#759eff",
-    "#75c7ff",
-    "#f4ff91",
-    "#ffb8ec",
-    "#7052ff",
-    "#563F1B",
-    "#025DEB",
-    "#02EB7C",
-    "#159E40",
-    "#121210",
-    "#9E1615",
+    "#845EC2",
+    "#2C73D2",
+    "#0081CF",
+    "#0089BA",
+    "#008E9B",
+    "#008F7A",
+    "#B39CD0",
+    "#FBEAFF",
+    "#B0A8B9",
+    "#C34A36",
+    "#936C00",
+    "#008BC8",
 ];
 
 export default Colors;
